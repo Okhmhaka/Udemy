@@ -57,3 +57,11 @@ input[type=password] {
 .post button:active {
     background-color: #02c39a;
 }
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+p::first-line {
+    color: purple;
+}
