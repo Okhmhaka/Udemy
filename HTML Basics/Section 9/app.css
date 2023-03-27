@@ -1,12 +1,19 @@
 section {
-    width: 500;
-    height: 500;
+    width: 500px;
+    height: 500px;
     background-color: magenta;
 }
 
-#rbga {
+#rgba {
     width: 50%;
     height: 50%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
 
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.5;
 }
