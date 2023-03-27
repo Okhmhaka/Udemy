@@ -1,0 +1,12 @@
+section {
+    width: 500;
+    height: 500;
+    background-color: magenta;
+}
+
+#rbga {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+
+}
