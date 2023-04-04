@@ -14,8 +14,15 @@ nav {
     justify-content: space-between;
 }
 
+ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
 ul {
-    border: 1px solid red;
+
     flex: 1;
     max-width: 50%;
     display: flex;
@@ -23,12 +30,6 @@ ul {
 
 }
 
-ul,
-li {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
 
 /* @media (min-width:500px) {
     h1 {
@@ -45,6 +46,17 @@ li {
 @media (max-width: 768px) {
     h1 {
         font-size: 4em;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
