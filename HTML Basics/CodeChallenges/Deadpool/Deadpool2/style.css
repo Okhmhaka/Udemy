@@ -1,0 +1,144 @@
+body,
+html {
+    height: 100%;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #666;
+}
+
+li {
+    display: inline;
+}
+
+li a:hover {
+    background-color: #bf0603;
+    color: black;
+    transition: 500ms;
+    font-weight: 400;
+}
+
+.mainNavbar a {
+    margin: 20px;
+    color: #bf0603;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.dimg1,
+.dimg2,
+.dimg3 {
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment: fixed;
+}
+
+.dimg1 {
+    background-image: url('images/deadpool.jpg');
+    min-height: 100%;
+}
+
+.dimg2 {
+    background-image: url('images/deadpool2.jpg');
+    min-height: 400px;
+    padding-top: 0;
+}
+
+.dimg3 {
+    background-image: url('images/deadpool_2_hd.jpg');
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark {
+    background-image: linear-gradient(to right, black, #343a40);
+    color: #8d0801;
+}
+
+.dtext {
+    position: sticky;
+    top: 50%;
+    width: 100%;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+@media(max-width:568px) {
+
+    .dimg1,
+    .dimg2,
+    .dimg3 {
+        background-attachment: scroll;
+    }
+}
+
+.dtext .border {
+    /*background-image: linear-gradient(to right, black, #343a40);*/
+    margin: 0;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #8d0801;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #8d0801;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+.dtext .border.dpHead {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.dtext .secondary {
+    /*background-image: linear-gradient(to right, black, #343a40);*/
+    color: #8d0801;
+    padding: 20px;
+}
+
+.dtext .border.trans {
+    background-color: transparent;
+}
+
+.dtext .footer {
+    /*background-image: linear-gradient(to right, black, #343a40);*/
+    color: #8d0801;
+    padding: 20px;
+    background-color: none;
+}
