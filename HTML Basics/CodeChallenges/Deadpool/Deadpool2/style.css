@@ -19,9 +19,17 @@ li a:hover {
     font-weight: 400;
 }
 
+
+
+.mainNavbar {
+    position: relative;
+    padding: 10px;
+}
+
 .mainNavbar a {
-    margin: 20px;
+
     color: #bf0603;
+    font-size: 1.25rem;
     font-weight: 100;
     text-transform: uppercase;
     padding: 10px;
@@ -30,30 +38,24 @@ li a:hover {
 .dimg1,
 .dimg2,
 .dimg3 {
-    margin: 0;
-    padding-top: 15px;
     position: relative;
     opacity: 0.9;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-    /*
-      fixed = parallax
-      scroll = normal
-    */
     background-attachment: fixed;
 }
 
 .dimg1 {
     background-image: url('images/deadpool.jpg');
     min-height: 100%;
+
 }
 
 .dimg2 {
     background-image: url('images/deadpool2.jpg');
     min-height: 400px;
-    padding-top: 0;
+
 }
 
 .dimg3 {
@@ -72,13 +74,16 @@ li a:hover {
 }
 
 .dtext {
-    position: sticky;
+    position: absolute;
     top: 50%;
     width: 100%;
-    color: #000;
-    font-size: 27px;
+    color: #8d0801;
+    font-size: 2.5rem;
+    font-weight: 400;
     letter-spacing: 8px;
     text-transform: uppercase;
+    text-align: center;
+
 }
 
 @media(max-width:568px) {
@@ -97,14 +102,12 @@ li a:hover {
     font-size: 4rem;
     color: #8d0801;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     align-items: center;
-
     top: 50%;
-    left: 25%;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #8d0801;
     padding: 20px;
     letter-spacing: 5px;
 }
@@ -130,6 +133,7 @@ li a:hover {
     /*background-image: linear-gradient(to right, black, #343a40);*/
     color: #8d0801;
     padding: 20px;
+    font-weight: 400;
 }
 
 .dtext .border.trans {
