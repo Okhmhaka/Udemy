@@ -9,7 +9,7 @@ li {
 }
 
 a {
-    padding: 8px
+    padding: 10px
 }
 
 li a:hover {
@@ -17,6 +17,10 @@ li a:hover {
     color: black;
     transition: 500ms;
     font-weight: 400;
+}
+
+.mainNavbar {
+    padding-top: 12px;
 }
 
 .mainNavbar a {
@@ -71,7 +75,18 @@ li a:hover {
     color: #8d0801
 }
 
-.about {
+.column .dtext {
+    margin-top: 200px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: #8d0801;
+    text-transform: uppercase;
     text-align: center;
-    padding: 50px 80px;
+    align-items: center;
+    position: absolute;
+
+    width: 33.33%;
+    padding: 15px;
+    vertical-align: middle;
 }
