@@ -30,16 +30,9 @@ li a:hover {
     text-transform: uppercase;
 }
 
-.gallery {
-    align-items: center;
-    align-content: center;
-}
-
-section.gallery img {
+section img {
     margin: 15px;
     border: 1px solid #bf0603;
-    width: 600px;
-
 }
 
 a img:hover {
