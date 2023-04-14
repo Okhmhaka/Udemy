@@ -1,0 +1,47 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, black, #343a40);
+    overflow: scroll;
+}
+
+li {
+    display: inline;
+
+}
+
+a {
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: #bf0603;
+    color: black;
+    transition: 500ms;
+    font-weight: 400;
+}
+
+.mainNavbar {
+    padding-top: 12px;
+}
+
+.mainNavbar a {
+    color: #bf0603;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.gallery {
+    align-items: center;
+    align-content: center;
+}
+
+section.gallery img {
+    margin: 15px;
+    border: 1px solid #bf0603;
+    width: 600px;
+
+}
+
+a img:hover {
+    border: 2px solid red;
+}
