@@ -9,7 +9,7 @@ li {
 
 }
 
-a {
+li a {
     padding: 10px;
 }
 
@@ -31,10 +31,15 @@ li a:hover {
 }
 
 section img {
-    margin: 15px;
+    margin: 10px;
+
     border: 1px solid #bf0603;
 }
 
 a img:hover {
     border: 2px solid red;
+}
+
+div.row {
+    justify-content: center;
 }

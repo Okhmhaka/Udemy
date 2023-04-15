@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("images/deadpool.jpg") no-repeat center fixed;
+    overflow: scroll;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 10px
+}
+
+li a:hover {
+    background-color: #bf0603;
+    color: black;
+    transition: 500ms;
+    font-weight: 400;
+}
+
+.mainNavbar {
+    padding-top: 12px;
+}
+
+.mainNavbar a {
+    color: #bf0603;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#mainheading {
+    margin: 0;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #8d0801;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+#mainheading span {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.column h1 {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.section-dark {
+    background-image: linear-gradient(to right, black, #343a40);
+    color: #8d0801
+}
+
+.column .dtext {
+    margin-top: 200px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: #8d0801;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+
+    width: 33.33%;
+    padding: 15px;
+    vertical-align: middle;
+}
