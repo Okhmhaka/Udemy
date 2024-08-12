@@ -56,19 +56,64 @@
     </section>
 
     <section class="container-fluid px-0">
-        <div class="row align-items-center">
+        <div class="row align-items-center content">
             <div class="col-md-6 order-2 order-md-1">
                 <img src="imgs/milk.png" alt="milk jar" class="img-fluid">
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
                 <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>MUSUEM OF CANDY</h2>
                         <img class="d-none d-lg-inline" src="imgs/lolli_icon.png" alt="">
                         <p class="lead">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis quas voluptates est
                             molestias ullam, hic blanditiis corrupti tempore sunt, iusto ex ipsam, assumenda accusantium
-                            nesciunt suscipit officia dolores distinctio.
+                            nesciunt suscipit officia dolores distinctio. Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Similique maiores odit totam, aliquid cum facilis tenetur nostrum quos,
+                            ipsa accusamus deleniti mollitia inventore nemo a quaerat perferendis dolores? Expedita,
+                            vero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>MUSUEM OF CANDY</h2>
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis quas voluptates est
+                            molestias ullam, hic blanditiis corrupti tempore sunt, iusto ex ipsam, assumenda accusantium
+                            nesciunt suscipit officia dolores distinctio. Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Similique maiores odit totam, aliquid cum facilis tenetur nostrum quos,
+                            ipsa accusamus deleniti mollitia inventore nemo a quaerat perferendis dolores? Expedita,
+                            vero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/gumball.png" alt="gumball jar" class="img-fluid">
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/sprinkles.png" alt="sprinkles" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>MUSUEM OF CANDY</h2>
+                        <img class="d-none d-lg-inline" src="imgs/lolli_icon.png" alt="">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis quas voluptates est
+                            molestias ullam, hic blanditiis corrupti tempore sunt, iusto ex ipsam, assumenda accusantium
+                            nesciunt suscipit officia dolores distinctio. Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Similique maiores odit totam, aliquid cum facilis tenetur nostrum quos,
+                            ipsa accusamus deleniti mollitia inventore nemo a quaerat perferendis dolores? Expedita,
+                            vero.
                         </p>
                     </div>
                 </div>
@@ -84,6 +129,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
 </body>
 
 </html>
